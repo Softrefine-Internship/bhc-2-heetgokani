@@ -1,1 +1,112 @@
-/* write your css here */
+/* General resets and container sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url(images/background.jpg);
+  background-attachment: fixed;
+  height: 100vh;
+  width: 1200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero_section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  margin: 15px 250px 0 35px;
+}
+
+.login_icon,
+.announcing_line_icon {
+  height: 15px;
+  width: 15px;
+  margin-right: 8px;
+}
+
+.header_name {
+  margin: 0 0 0 50px;
+  text-decoration: none;
+  font-size: px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_name:last-child {
+  margin: 0 0 0 305px;
+}
+
+.body_section {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.readmore_line {
+  text-decoration: none;
+  color: blue;
+  font-weight: 200;
+}
+
+.announcing_line_header {
+  color: black;
+  margin: 30px 0 0 0;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.announcing_line_content {
+  color: #495057;
+  border: 1px solid rgba(124, 116, 116, 0.61);
+  border-radius: 10px;
+  display: inline-block;
+  font-weight: 100;
+  padding: 7px;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin: 100px 0 0 0;
+}
+.french_line {
+  font-size: 20px;
+  color: #495057ad;
+  margin: 15px 0 0 0;
+  font-weight: normal;
+}
+
+.button_section {
+  margin: 20px 0 0 0;
+}
+.get_started_button {
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 20px 20px 0 0;
+  background-color: #4a56e2;
+  border-radius: 10px;
+  font-weight: 400;
+  color: white;
+  font-style: normal;
+  border: none;
+  font-family: "Roboto", sans-serif;
+}
+.learnmore_content {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
