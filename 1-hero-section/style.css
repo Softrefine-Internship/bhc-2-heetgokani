@@ -1,4 +1,4 @@
-/* General resets and container sizing */
+/* write your css here*/
 * {
   margin: 0;
   padding: 0;
@@ -57,7 +57,7 @@
   color: blue;
   font-weight: 200;
 }
-
+/* Announcing Line Section */
 .announcing_line_header {
   color: black;
   margin: 30px 0 0 0;
@@ -84,7 +84,7 @@
   margin: 15px 0 0 0;
   font-weight: normal;
 }
-/* Its a button section where one button is Get Started */
+/* Its a button section where one button is Get Started and a tag for learnmore */
 .button_section {
   margin: 20px 0 0 0;
 }
@@ -111,3 +111,4 @@
   font-weight: 500;
   font-size: 16px;
 }
+/* Code ended thank you :) */
