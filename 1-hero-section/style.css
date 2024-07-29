@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* this is container class */
 .container {
   background-image: url(images/background.jpg);
   background-attachment: fixed;
@@ -24,7 +24,7 @@
   width: 50px;
   margin: 15px 250px 0 35px;
 }
-
+/* Code Reusabilty */
 .login_icon,
 .announcing_line_icon {
   height: 15px;
@@ -77,13 +77,14 @@
   font-size: 15px;
   margin: 100px 0 0 0;
 }
+/* The line which was french */
 .french_line {
   font-size: 20px;
   color: #495057ad;
   margin: 15px 0 0 0;
   font-weight: normal;
 }
-
+/* Its a button section where one button is Get Started */
 .button_section {
   margin: 20px 0 0 0;
 }
