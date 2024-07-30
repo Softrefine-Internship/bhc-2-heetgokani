@@ -57,6 +57,7 @@ input[type="email"] {
   color: black;
   border: none;
 }
+/* this is the notify button */
 .notify_button {
   color: rgb(0, 0, 0);
   background-color: #ffffff;
