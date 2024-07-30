@@ -1,45 +1,57 @@
-/* write your css here */
+/* Reset default styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Body styling */
 body {
   font-family: "Poppins", sans-serif;
   background-color: white;
   padding: 20px;
-}
-.container {
   width: 1200px;
-  margin: 0 auto;
+  margin: 0 0 0 150px;
 }
+
+/* Blog header styling */
 .blog_header {
-  margin: 25px 0 0 200px;
   font-size: 40px;
+  text-align: left;
+  margin: 20px 0 05px 0;
 }
+
+/* Learn how to grow heading styling */
 .learn_how_to_grow_heading {
   color: rgba(110, 105, 105, 0.555);
-  margin: 10px 0 0 200px;
   font-size: 20px;
+  text-align: left;
+  margin-bottom: 10px 0 40px 0;
 }
+
+/* Two blog section styling */
 .two_blog_section {
   display: flex;
-  margin: 20px 200px;
-  padding: 20px;
+  margin: 65px 0 0 0;
+  padding: 20px 0;
+}
+.blog1_section {
   border-bottom: 1px solid #ddd;
 }
+/* Blog image styling */
 .blog_images {
+  flex: 0 0 150px;
   margin-right: 20px;
 }
+
 .blog_img {
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
-  object-fit: cover;
+  margin: 0 15px 40px 0;
 }
-.blog_content {
-  max-width: calc(100% - 170px);
-}
+
+/* Blog meta styling */
 .blog_meta {
   display: flex;
   align-items: center;
@@ -47,21 +59,51 @@ body {
   color: #aaa;
   margin-bottom: 10px;
 }
+.blog_department {
+  margin: 0 0 0 20px;
+}
+
 .blog_meta p {
   margin-right: 10px;
 }
+
 .blog_department {
   background-color: #eee;
   padding: 2px 8px;
   border-radius: 5px;
 }
+
+/* Blog title styling */
 .blog_title {
   font-size: 24px;
   color: #333;
   margin: 10px 0;
 }
+
 .blog_description_french_txt {
   font-size: 16px;
   color: #666;
-  margin: 10px 0;
+  margin: 10px 0 55px 0;
+}
+
+.blog_content {
+  flex: 1;
+}
+.blog_author_section {
+  align-items: center;
+  margin: 30px 0 0 0;
+  display: flex;
+}
+.blog_author_position {
+  color: #868e96;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0 0 3px 10px;
+  display: inline-block;
+}
+.blog_author_heading {
+  margin: 0 0 3px 10px;
+  font-size: 15px;
 }
