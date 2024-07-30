@@ -1,1 +1,89 @@
-/* write your css here */
+/* start your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 1200px;
+  margin: 50px;
+}
+
+.header-content {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.main-heading {
+  color: black;
+  margin: 20px 0 0 0;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.sub-heading {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(112, 102, 102);
+  margin: 10px 0 0 0;
+}
+
+/* Table starts from here */
+.user-table {
+  font-size: 20px;
+  font-family: sans-serif;
+  width: 100%;
+  margin-top: 40px;
+  border-collapse: collapse;
+}
+/* This is table heading tag and table data tag css */
+th,
+td {
+  padding: 15px 20px;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+}
+
+tr {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+td:first-child {
+  font-weight: bold;
+  color: black;
+}
+
+td {
+  color: #6b7280;
+}
+
+td a {
+  color: #6366f1;
+  text-decoration: none;
+}
+
+.add-user-btn {
+  border: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  padding: 10px 16px;
+  margin: 20px 20px 0 0;
+  font-size: 16px;
+  background-color: #6741d9;
+  border-radius: 10px;
+}
+.add-user-btn:hover {
+  background-color: #050000;
+  color: #ffffff;
+  cursor: pointer;
+}
+/* Code ended Thank You */

@@ -1,1 +1,160 @@
 /* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("images/background.jpg");
+  padding: 40px;
+}
+
+.contact_sales_header {
+  color: black;
+  font-weight: 550;
+  margin: 15px 0 0 0;
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+}
+.content {
+  text-align: center;
+}
+.contact_sales_header_para {
+  color: rgb(85, 78, 78);
+  margin: 15px 0 0 0;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+/* Its form class */
+.form {
+  margin: 50px 0 0 0;
+}
+/* Its form tag not class name is similar but its tag  */
+form {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin: 0 0 5px 10px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #0a0a0a;
+}
+
+select,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #746b6b7e;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+.name_row {
+  width: 100%;
+  display: inline-block;
+}
+
+.first_name_section,
+.second_name_section {
+  display: inline-block;
+  width: 280px;
+  vertical-align: top;
+}
+
+.toggle {
+  align-items: center;
+  margin: 20px 0 0 0;
+  display: flex;
+}
+textarea {
+  height: 100px;
+}
+
+.toggle input[type="checkbox"] {
+  display: none;
+}
+
+.toggle .toggle-label {
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+  margin: 20px 0 0 0;
+  width: 50px;
+  height: 25px;
+  background-color: #ccc;
+}
+.toggle_text {
+  display: block;
+  margin: 20px 0 5px 10px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #0a0a0a;
+}
+
+.toggle .toggle-label::after {
+  content: "";
+  width: 21px;
+  height: 21px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s;
+}
+input,
+button {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #746b6b7e;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+.toggle input[type="checkbox"]:checked + .toggle-label {
+  background-color: #4a00e0;
+}
+
+.toggle input[type="checkbox"]:checked + .toggle-label::after {
+  transform: translateX(25px);
+}
+
+.toggle span {
+  margin-left: 10px;
+}
+
+.button_letstalk {
+  background-color: #4a00e0;
+  color: white;
+  font-size: 16px;
+  margin: 30px 0 0 0;
+  width: 100%;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding: 15px;
+  border: none;
+}
+
+a {
+  color: #4a00e0;
+  text-decoration: none;
+}
+/* Coded ended Thank You :) */
