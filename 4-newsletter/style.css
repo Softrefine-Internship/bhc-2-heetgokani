@@ -14,6 +14,13 @@
   background-size: cover;
   height: 400px;
   margin: 20px 20px;
+  background: radial-gradient(
+    circle at 35% 125%,
+    rgba(79, 28, 92, 0.692) 0%,
+    rgba(16, 24, 38, 1) 50%,
+    rgba(16, 24, 38, 1) 100%
+  );
+
   border-radius: 20px;
   background-attachment: fixed;
   position: relative;
@@ -49,12 +56,13 @@
 }
 /* Its a email css */
 input[type="email"] {
-  background-color: #ced4da5b;
   margin: 35px 10px 0 0;
   width: 300px;
+  border: 1px solid rgba(182, 181, 181, 0.329);
+  background: rgba(104, 100, 100, 0.16);
   border-radius: 10px;
   padding: 10px 10px;
-  color: black;
+  color: rgb(240, 238, 238);
   border: none;
 }
 /* this is the notify button */
@@ -70,5 +78,10 @@ input[type="email"] {
   text-decoration: none;
   font-size: 16px;
   border-radius: 10px;
+  cursor: pointer;
+}
+.notify_button:hover {
+  color: aqua;
+  background-color: rgba(255, 192, 203, 0.651);
 }
 /* Code ended thank you :) */

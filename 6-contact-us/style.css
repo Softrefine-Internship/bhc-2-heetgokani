@@ -9,10 +9,15 @@
   background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("images/background.jpg");
+  background: linear-gradient(135deg, #ffffff 0%, #e3bbfac7 50%, #e8e5ff 100%);
   padding: 40px;
 }
-
+.form_details {
+  display: inline-block;
+  width: 100%;
+  gap: 20px;
+  display: flex;
+}
 .contact_sales_header {
   color: black;
   font-weight: 550;
@@ -50,16 +55,27 @@ label {
   font-style: normal;
   color: #0a0a0a;
 }
+.phone_number_section select,
+.phone_number_section input {
+  width: auto;
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px 0 0 4px;
+  box-shadow: none;
+}
 
 select,
 textarea {
-  box-sizing: border-box;
-  width: 100%;
-  border: 1px solid #746b6b7e;
   margin: 5px;
   padding: 10px;
-  border: 1px solid #ffffff;
   border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid rgba(185, 174, 174, 0.774);
+  padding: 10px;
+  margin-block: 10px;
+  box-shadow: 0px 0px 2px 0px black;
 }
 
 .name_row {
@@ -70,10 +86,19 @@ textarea {
 .first_name_section,
 .second_name_section {
   display: inline-block;
-  width: 280px;
+  width: 295px;
   vertical-align: top;
 }
-
+.phone_number_section {
+  position: relative;
+}
+.option {
+  position: absolute;
+  background-color: #0a0a0a00;
+  font-size: 16px;
+  color: rgba(128, 128, 128, 0.514);
+  border: none;
+}
 .toggle {
   align-items: center;
   margin: 20px 0 0 0;
@@ -119,13 +144,15 @@ textarea {
 }
 input,
 button {
-  box-sizing: border-box;
-  width: 100%;
-  border: 1px solid #746b6b7e;
   margin: 5px;
   padding: 10px;
-  border: 1px solid #ffffff;
   border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid rgba(185, 174, 174, 0.774);
+  padding: 10px;
+  margin-block: 10px;
+  box-shadow: 0px 0px 2px 0px black;
 }
 
 .toggle input[type="checkbox"]:checked + .toggle-label {
@@ -151,8 +178,12 @@ button {
   font-weight: 500;
   padding: 15px;
   border: none;
+  cursor: pointer;
 }
-
+.button_letstalk:hover {
+  color: rgb(2, 1, 0);
+  background-color: rgba(213, 245, 73, 0.486);
+}
 a {
   color: #4a00e0;
   text-decoration: none;

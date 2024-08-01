@@ -47,7 +47,7 @@ body {
 }
 .per_month_paid {
   color: rgba(138, 133, 133, 0.658);
-  font-size: 15px;
+  font-size: 17px;
   margin: 05px 0 35px 0;
 }
 .buy_plan_button {
@@ -59,6 +59,10 @@ body {
   width: 300px;
   margin: 0 0 30px 0px;
   border-radius: 10px;
+  cursor: pointer;
+}
+.buy_plan_button:hover {
+  color: aqua;
 }
 /* 
 three_card_section means its a div tag in which 3 card is stored in this we can use flexbox  */
@@ -73,6 +77,14 @@ three_card_section means its a div tag in which 3 card is stored in this we can 
   margin: 0 0 50px 0;
   text-align: left;
 }
+.divider {
+  position: absolute;
+  top: 0;
+  right: -10px;
+  bottom: 0;
+  width: 2px;
+  background-color: #ddd;
+}
 
 .cards {
   border-right: 2px solid rgba(138, 133, 133, 0.363);
@@ -82,7 +94,7 @@ three_card_section means its a div tag in which 3 card is stored in this we can 
   text-align: left;
 }
 
-.everything_heading {
+erything_heading {
   margin: 0 0 25px 0;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -108,6 +120,7 @@ three_card_section means its a div tag in which 3 card is stored in this we can 
   font-weight: 500;
   font-style: normal;
   align-items: center;
+  margin: 10px 0 0 0;
   color: rgba(138, 133, 133, 0.726);
 }
 /* code ended thank you :) */

@@ -6,7 +6,7 @@
 }
 /* this is container class */
 .container {
-  background-image: url(images/background.jpg);
+  background: linear-gradient(135deg, #ffffff 0%, #e3bbfac7 50%, #e8e5ff 100%);
   background-attachment: fixed;
   height: 100vh;
   width: 1200px;
@@ -18,11 +18,12 @@
 .hero_section {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
   width: 50px;
-  margin: 15px 250px 0 35px;
+  margin: 15px 15px 0 35px;
 }
 /* Code Reusabilty */
 .login_icon,
@@ -31,17 +32,37 @@
   width: 15px;
   margin-right: 8px;
 }
-
-.header_name {
-  margin: 0 0 0 50px;
-  text-decoration: none;
-  font-size: px;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
+.heading_part {
+  margin: 0 225px 0 225px;
 }
 
-.header_name:last-child {
-  margin: 0 0 0 295px;
+.header_name:hover {
+  color: rgb(44, 47, 226);
+}
+
+.arrow {
+  font-size: 20px;
+  color: black;
+  margin: 0 0 0 03px;
+}
+
+.header_name {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  font-weight: 500px;
+  font-weight: bold;
+  margin: 0 0 0 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header_log {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  font-weight: 500px;
+  font-weight: bold;
+  margin: 0 25px 0 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .body_section {
@@ -50,6 +71,9 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+.header_log:hover {
+  color: rgb(44, 47, 226);
 }
 
 .readmore_line {
@@ -69,10 +93,10 @@
 .announcing_line_content {
   color: #495057;
   border: 1px solid rgba(124, 116, 116, 0.61);
-  border-radius: 10px;
+  border-radius: 20px;
   display: inline-block;
   font-weight: 100;
-  padding: 7px;
+  padding: 5px 10px 5px 10px;
   font-family: sans-serif;
   font-size: 15px;
   margin: 100px 0 0 0;
@@ -83,6 +107,7 @@
   color: #495057ad;
   margin: 15px 0 0 0;
   font-weight: normal;
+  font-family: sans-serif;
 }
 /* Its a button section where one button is Get Started and a tag for learnmore */
 .button_section {

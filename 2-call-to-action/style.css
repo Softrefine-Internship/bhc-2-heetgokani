@@ -23,7 +23,23 @@
 /* Its the main content section */
 .main_content_section {
   width: 600px;
-  margin: 0 100px 0 80px;
+  margin: -50px 100px 0 100px;
+}
+.main_img_section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 450px;
+  background: linear-gradient(
+    140deg,
+    rgba(110, 66, 240, 0.5) 0%,
+    rgba(131, 94, 218, 0.5) 50%,
+    rgba(114, 78, 221, 0.5) 100%
+  );
+  z-index: 1;
+  pointer-events: none;
 }
 /* award winning line */
 .award_winning_header {
@@ -61,6 +77,11 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   padding: 15px;
+  cursor: pointer;
+}
+
+.help_center_button:hover {
+  color: aqua;
 }
 
 /* Code ended thank you :) */
